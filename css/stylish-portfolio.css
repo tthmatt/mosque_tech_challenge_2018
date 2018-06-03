@@ -37,6 +37,11 @@ body {
   border: #193F72
 }
 /* Custom Button Styles */
+
+.Decide-which-industries {
+  margin-bottom:40px;
+}
+
 .button-text-1 {
   font-size: 15px;
 }
@@ -50,6 +55,7 @@ body {
     border: none;
     border-radius: 0;
     background-color: rgba(0, 0, 0, .4);
+    margin: 0 auto;
 }
 
 .btn-dark:hover,
@@ -206,16 +212,55 @@ hr.small {
 .column-container {
   margin: 0 auto;
 }
+
 .column-1 {
+    margin-left: 10px;
+    margin-right:10px;
     margin-bottom: 30px;
     float:left;
     max-width: 300px;
 }
 
 .column-2 {
+    margin-left: 10px;
+    margin-right:10px;
     margin-bottom: 30px;
     float:left;
     max-width: 500px;
+}
+
+.chart {
+  padding-top:50px;
+  padding-right:30px;
+}
+
+.circle {
+    background: black;
+    color: white;
+    width: 120px;
+    height: 120px;
+    float:left;
+    margin: 0px 20px 20px 0px;
+    padding: 5px;
+    line-height:120px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+.circle-one {
+  background-color: #69CA98
+}
+
+.circle-two {
+  background-color: #488A68
+}
+
+.circle-three {
+  background-color: #488A68
+}
+
+.circle-four {
+  background-color: #69CA98
 }
 
 .service-item {
@@ -225,9 +270,6 @@ hr.small {
 }
 
 .service-item-2 {
-    border-width:1px;
-    border-style:solid;
-    margin-bottom: 30px;
     float:left;
     max-width: 30%;
     margin:7px;
@@ -237,8 +279,8 @@ hr.small {
     -moz-border-radius: 10px;
     -webkit-border-radius: 10px;
     border-radius: 10px; /* future proofing */
-    -khtml-border-radius: 10px; /* for old Konqueror browsers */
-
+    -khtml-border-radius: 10px; /* for old Konqueror browsers */;
+    overflow: visible;
 }
 
 .first {
@@ -258,6 +300,7 @@ hr.small {
     color: white;
 }
 
+
 .service-item-3 {
   background-color: #BF9950;
   color:white;
@@ -274,6 +317,11 @@ hr.small {
   -webkit-border-radius: 10px;
   border-radius: 10px; /* future proofing */
   -khtml-border-radius: 10px; /* for old Konqueror browsers */
+}
+
+.service-item-4 {
+  font-size:25px;
+  width:80%;
 }
 
 .column-2-text {
@@ -404,6 +452,9 @@ hr.small {
 .map iframe {
     pointer-events: none;
 }
+
+/* Data */
+
 
 
 /* Footer */
